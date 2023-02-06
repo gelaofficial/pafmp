@@ -551,6 +551,10 @@ body {
 		display: none;
 	}
 
+	#sidebar{
+		width: 70px;
+	}
+
 	#content nav form .form-input button {
 		width: auto;
 		height: auto;
