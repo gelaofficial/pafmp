@@ -55,7 +55,7 @@ body {
 	position: fixed;
 	top: 0;
 	left: 0;
-	width: 280px;
+	width: 20%;
 	height: 100%;
 	background: var(--light);
 	z-index: 2000;
@@ -71,7 +71,7 @@ body {
 	width: 60px;
 }
 #sidebar .brand {
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 700;
 	height: 56px;
 	display: flex;
@@ -85,11 +85,11 @@ body {
 	padding-bottom: 20px;
 	box-sizing: content-box;
 }
-#sidebar .brand .bx {
+/* #sidebar .brand .bx {
 	min-width: 60px;
 	display: flex;
 	justify-content: center;
-}
+} */
 #sidebar .side-menu {
 	width: 100%;
 	margin-top: 48px;
@@ -166,8 +166,8 @@ body {
 /* CONTENT */
 #content {
 	position: relative;
-	width: calc(100% - 280px);
-	left: 280px;
+	width: 80%;
+	left: 10px;
 	transition: .3s ease;
 }
 #sidebar.hide ~ #content {
@@ -546,13 +546,13 @@ body {
 
 
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 320px) {
 	#content nav form .form-input input {
 		display: none;
 	}
 
 	#sidebar{
-		width: 70px;
+		width: 100px;
 	}
 
 	#content nav form .form-input button {
